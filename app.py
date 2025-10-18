@@ -1,3 +1,7 @@
+try:
+    import venuv
+except ModuleNotFoundError:
+    pass
 import streamlit as st
 import chess
 import pyrebase
