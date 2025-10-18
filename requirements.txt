@@ -1,4 +1,9 @@
-streamlit>=1.25.0
-python-chess>=1.999
-pyrebase4>=4.5.0
-streamlit-autorefresh>=0.0.3
+streamlit
+python-chess
+pyrebase4
+streamlit-autorefresh
+streamlit
+pyrebase4
+firebase-admin
+gcloud
+
