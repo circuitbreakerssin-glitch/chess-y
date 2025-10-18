@@ -25,7 +25,7 @@ firebaseConfig = {
   "1:495432935367:web:13ab4012be185b9d69dbe2",
 }
 
-firebase = pyrebase.initialize_app(firebaseConfig)
+st.write(firebaseConfig)
 auth = firebase.auth()
 db = firebase.database()
 
@@ -244,4 +244,3 @@ if col2.button("🚪 Logout"):
     st.session_state.user = None
     st.session_state.room_id = ""
     st.session_state.player_color = None
-    st.rerun()
